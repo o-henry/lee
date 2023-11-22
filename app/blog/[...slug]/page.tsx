@@ -14,7 +14,7 @@ import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
 import { notFound } from 'next/navigation'
 
-const defaultLayout = 'PostLayout'
+const defaultLayout = 'PostBanner'
 const layouts = {
   PostSimple,
   PostLayout,
@@ -106,7 +106,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
     }
   })
 
-  const Layout = layouts[post.layout || defaultLayout]
+  const Layout = layouts[defaultLayout]
 
   return (
     <>

@@ -44,7 +44,7 @@ export default function Home({ posts }) {
             return (
               <li key={slug} className="py-5">
                 <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                  <div className="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-nerko font-medium leading-6 text-gray-500 dark:text-gray-400">
@@ -93,7 +93,7 @@ export default function Home({ posts }) {
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
-            className="text-stone-500 font-acc hover:text-stone-600 dark:hover:text-stone-400"
+            className="text-stone-500 font-acc hover:text-stone-600 dark:hover:text-blue-600 dark:text-white"
             aria-label="All posts"
           >
             All Posts {'>'}

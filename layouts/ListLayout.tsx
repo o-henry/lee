@@ -83,7 +83,7 @@ export default function ListLayout({
           <h1 className="text-2xl font-young font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             {title}
           </h1>
-          <div className="relative max-w-lg">
+          <div className="relative max-w-xl">
             <label>
               <span className="sr-only">Search articles</span>
               <input
@@ -116,7 +116,7 @@ export default function ListLayout({
             const { path, date, title, summary, tags } = post
             return (
               <li key={path} className="py-4">
-                <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                <article className="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
                   <dl>
                     <dt className="sr-only">Published on</dt>
                     <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">

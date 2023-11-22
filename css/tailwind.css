@@ -4,32 +4,73 @@
 
 /* web font - funny english */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nerko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Young+Serif&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Young+Serif&display=swap'); */
+@font-face {
+  font-family: 'Staatliches';
+  src: url('https://fonts.googleapis.com/css2?family=Staatliches&family=Young+Serif&display=swap') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
+}
 @font-face {
     font-family: 'ACCchildrenskyOTF';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrensky.woff') format('woff');
     font-weight: normal;
+    font-display: swap;
     font-style: normal;
 }
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3;
+}
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GOSEONGGEUMGANGNURI';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GOSEONGGEUMGANGNURI.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;;
+}
 
+.font-hak { 
+  font-family: 'HakgyoansimWoojuR';
+}
 .font-sta { 
-  font-family: 'Staatliches'
+  font-family: "MBC1961GulimM", Staatliches !important;
 }
 .font-dm { 
-  font-family: "DM Serif Display"
+  font-family: "DM Serif Display";
 }
 .font-nerko { 
   font-family: "Nerko One";
 }
 .font-acc {
-  font-family: "ACCchildrenskyOTF"
+  font-family: "ACCchildrenskyOTF";
+}
+.font-cali {
+  font-family: "Calistoga";
 }
 
+#kbar-listbox {
+  font-family: "ACCchildrenskyOTF";
+}
 
-/* ======= dark mode =========== */
+input { 
+  font-family: "ACCchildrenskyOTF";
+}
 
-body * {
-    /* @apply transition-colors duration-100; */
+kbd {
+  font-family: "ACCchildrenskyOTF";
 }
 
 /* =============================== */

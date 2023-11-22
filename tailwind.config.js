@@ -22,12 +22,13 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
+        'hak': ['HakgyoansimWoojuR'],
         'young': ['Young Serif'],
-        'sta': ['Staatliches'],
+        'sta': ["Staatliches", "MBC1961GulimM"],
         'dm': ['DM Serif Display'],
         'acc': ['ACCchildrenskyOTF'],
         'nerko': ['Nerko One'],
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        sans: ['HakgyoansimWoojuR','GOSEONG GEUMGANGNURI', 'var(--font-space-grotesk)', ...fontFamily.sans],
       },
       colors: {
         primary: colors.pink,
