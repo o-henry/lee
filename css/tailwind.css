@@ -25,6 +25,13 @@
   font-family: "ACCchildrenskyOTF"
 }
 
+
+/* ======= dark mode =========== */
+
+body * {
+    /* @apply transition-colors duration-100; */
+}
+
 /* =============================== */
 
 .task-list-item::before {
