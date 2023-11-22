@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="">
-        <div className="pb-8 pt-6">
+        <div className="pb-8 pt-10">
           <h1 className="text-3xl font-nerko font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
            Hi
           </h1>
@@ -36,7 +36,7 @@ export default function Home({ posts }) {
           </span>  
         </div>
 
-        <ul className="">
+        <ul className="font-nerko">
           {!posts.length && 'No posts found.'}
           {/* rendering post */}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
@@ -89,18 +89,18 @@ export default function Home({ posts }) {
           })}
         </ul>
       </div>
-      {/* {posts.length > MAX_DISPLAY && (
+      {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            className="text-stone-500 font-acc hover:text-stone-600 dark:hover:text-stone-400"
             aria-label="All posts"
           >
-            All Posts &rarr;
+            All Posts {'>'}
           </Link>
         </div>
       )}
-      {siteMetadata.newsletter?.provider && (
+      {/* {siteMetadata.newsletter?.provider && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
         </div>
