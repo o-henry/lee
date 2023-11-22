@@ -22,6 +22,10 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
+        'young': ['Young Serif'],
+        'sta': ['Staatliches'],
+        'dm': ['DM Serif Display'],
+        'acc': ['ACCchildrenskyOTF'],
         'nerko': ['Nerko One'],
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
       },

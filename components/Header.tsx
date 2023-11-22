@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
-            <div className="mr-3">
+            <div className="mr-3 font-nerko">
               Hang.on
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
