@@ -125,7 +125,7 @@ export default function ListLayout({
                   </dl>
                   <div className="space-y-0 xl:col-span-3">
                     <div>
-                      <h3 className="text-xl font-bold font-acc leading-8 tracking-tight">
+                      <h3 className="text-xl font-bold font-out leading-8 tracking-tight">
                         <Link href={`/${path}`} className="text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
@@ -134,7 +134,7 @@ export default function ListLayout({
                         {tags?.map((tag) => <Tag key={tag} text={tag} />)}
                       </div> */}
                     </div>
-                    <div className="prose font-acc max-w-none text-gray-500 dark:text-gray-400">
+                    <div className="prose font-hak max-w-none text-gray-500 dark:text-gray-400">
                       {summary}
                     </div>
                   </div>

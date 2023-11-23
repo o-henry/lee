@@ -1,0 +1,21 @@
+@font-face { 
+    font-family: 'MBC1961GulimM';
+    src: url('../fonts/MBC1961GOTFM.otf') format("truetype");
+    /* size-adjust: 100%; */
+}
+
+@font-face {
+    font-family: 'MBC1961M';
+    src: url('../fonts/MBC1961OTFM.otf') format("truetype")
+}
+
+@font-face { 
+    font-family: 'Hana_handwriting';
+    src: url('../fonts/nanum_son.ttf');
+}
+
+@font-face {
+    font-family: 'Become_one';
+    src: url('../fonts/nanum_hana.ttf');
+    size-adjust: 150%;
+}

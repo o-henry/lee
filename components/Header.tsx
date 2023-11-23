@@ -26,7 +26,7 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      <div className="flex  font-acc items-center space-x-4 leading-5 sm:space-x-6">
+      <div className="flex font-acc items-center space-x-4 leading-5 sm:space-x-6">
         {headerNavLinks
           .filter((link) => link.href !== '/')
           .map((link) => (

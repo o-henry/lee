@@ -1,6 +1,8 @@
 import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 
+import 'public/static/fonts/style.css'
+
 import { Space_Grotesk } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 // import { SearchProvider, SearchConfig } from 'pliny/search'

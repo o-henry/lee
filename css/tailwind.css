@@ -8,9 +8,23 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Young+Serif&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Vina+Sans&display=swap');
+@font-face { 
+  font-family: 'Love Ya Like A Sister';
+  src: url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap') format('woff');
+  font-weight: 100;
+  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
+}
 @font-face {
   font-family: 'Staatliches';
   src: url('https://fonts.googleapis.com/css2?family=Staatliches&family=Young+Serif&display=swap') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
+}
+@font-face { 
+  font-family: 'Outfit';
+  src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
   font-weight: normal;
   font-style: normal;
   unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
@@ -44,7 +58,30 @@
     font-display: swap;
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;;
 }
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+
+.font-become {
+  font-family:  'Love Ya Like A Sister', 'Become_one';
+  font-weight: 100;
+}
+.font-hana {
+  font-family:  'Love Ya Like A Sister', 'Hana_handwriting';
+}
+.font-main-title { 
+  font-family: ''
+}
+.font-g {
+  font-family: 'GmarketSansMedium', Outfit;
+}
+.font-mbc { 
+  font-family: Outfit, 'MBC1961GulimM' ;
+}
 .font-dm { 
   font-family: "DM Mono", monospace;
 }
@@ -59,12 +96,14 @@
 }
 .font-out {
   font-family: 'Outfit';
+  /* font-weight: bold; */
 }
 .font-go {
-  font-family: 'GOSEONGGEUMGANGNURI';
+  font-family: 'Love Ya Like A Sister', 'GmarketSansMedium' ;
+  font-weight: 500;
 }
 .font-hak { 
-  font-family: 'HakgyoansimWoojuR';
+  font-family: Outfit, 'HakgyoansimWoojuR';
 }
 .font-sta { 
   font-family: 'Staatliches';
