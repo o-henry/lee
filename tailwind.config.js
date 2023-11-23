@@ -32,7 +32,7 @@ module.exports = {
 
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.blue,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
@@ -48,13 +48,19 @@ module.exports = {
             'h1,h2': {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              fontFamily: "Poppins"
+              fontFamily: ""
             },
             h3: {
               fontWeight: '600',
             },
             code: {
               color: theme('colors.indigo.500'),
+              backgroundColor: theme('colors.gray.100'),
+              paddingLeft: '4px',
+              paddingRight: '4px',
+              paddingTop: '2px',
+              paddingBottom: '2px',
+              borderRadius: '0.25rem',
             },
           },
         },
