@@ -44,6 +44,9 @@ module.exports = {
                 color: `${theme('colors.primary.600')}`,
               },
               code: { color: theme('colors.primary.400') },
+              fontFamily: 'GOSEONGGEUMGANGNURI',
+              fontSize: '1.15em',
+              textDecoration: 'none'
             },
             'h1,h2': {
               fontWeight: '700',
@@ -62,6 +65,15 @@ module.exports = {
               paddingBottom: '2px',
               borderRadius: '0.25rem',
             },
+            'code::before': {
+              content: 'none',
+            },
+            'code::after': {
+              content: 'none',
+            },
+            li: {
+              fontFamily: 'ACCchildrenskyOTF'
+            }
           },
         },
         invert: {

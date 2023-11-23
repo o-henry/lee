@@ -127,3 +127,18 @@ input:-webkit-autofill:focus {
 .katex-display {
   overflow: auto hidden;
 }
+
+.footnotes { 
+  font-family: "ACCchildrenskyOTF";
+  font-size: 14px;
+}
+
+.data-footnote-backref { 
+  display: none;
+}
+
+blockquote { 
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-family: "Outfit", "HakgyoansimWoojuR" !important;
+}
