@@ -14,8 +14,8 @@ export default function Footer() {
           {/* <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} /> */}
           {/* <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} /> */}
         </div>
-        <div className="mb-2 flex font-acc space-x-2 text-xs text-gray-500 dark:text-gray-400">
-          <div>{siteMetadata.author}</div>
+        <div className="mb-2 flex font-out space-x-2 text-xs text-gray-500 dark:text-gray-400">
+          <div><a href={siteMetadata.github} target="_blank" rel="noopener noreferrer">{siteMetadata.author}</a></div>
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
