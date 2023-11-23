@@ -28,7 +28,8 @@ module.exports = {
         'dm': ['DM Serif Display'],
         'acc': ['ACCchildrenskyOTF'],
         'nerko': ['Nerko One'],
-        sans: ['HakgyoansimWoojuR','GOSEONG GEUMGANGNURI', 'var(--font-space-grotesk)', ...fontFamily.sans],
+        sans: ["Outfit", "HakgyoansimWoojuR", "AppleSDGothicNeo", "Noto Sans KR", "Arial", "sans-serif"],
+
       },
       colors: {
         primary: colors.pink,
@@ -47,6 +48,7 @@ module.exports = {
             'h1,h2': {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
+              fontFamily: "Poppins"
             },
             h3: {
               fontWeight: '600',

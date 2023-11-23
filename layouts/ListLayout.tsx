@@ -80,10 +80,10 @@ export default function ListLayout({
     <>
       <div className="">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-2xl font-young font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+          <h1 className="text-2xl font-out font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             {title}
           </h1>
-          <div className="relative max-w-xl">
+          <div className="relative max-w-2xl">
             <label>
               <span className="sr-only">Search articles</span>
               <input
