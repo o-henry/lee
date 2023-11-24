@@ -22,6 +22,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
+        'cafedang': ['Cafe24Dangdanghae'],
         'hak': ['HakgyoansimWoojuR'],
         'young': ['Young Serif'],
         'sta': ["Staatliches", "MBC1961GulimM"],
@@ -51,6 +52,7 @@ module.exports = {
             'h1,h2': {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
+              fontFamily: ["Outfit", "MBC1961GulimM"],
             },
             h3: {
               fontWeight: '600',

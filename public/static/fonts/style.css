@@ -18,4 +18,47 @@
     font-family: 'Become_one';
     src: url('../fonts/nanum_hana.ttf');
     size-adjust: 150%;
+} 
+
+@font-face { 
+    font-family: 'Cafe24Dangdanghae';
+    src: url('../fonts/Cafe24Dangdanghae-v2.0.otf')
+}
+
+@font-face { 
+    font-family: 'HSSaemaul-Regular';
+    src: url('../fonts/HSSaemaul-Regular.ttf');
+    size-adjust: 150%;
+}
+
+@font-face { 
+    font-family: 'IM_Hyemin-Regular';
+    src: url('../fonts/IM_Hyemin-Regular.otf')
+}
+
+@font-face { 
+    font-family: 'GangwonSae';
+    src: url('../fonts/kangwon_saeum.otf')
+}
+
+@font-face { 
+    font-family: 'GangwonOk';
+    src: url('../fonts/kangwon_ok.ttf');
+    size-adjust: 150%;
+}
+
+@font-face { 
+    font-family: 'KOTRAHOPE';
+    src: url('../fonts/KOTRAHOPE.otf')
+}
+
+@font-face { 
+    font-family: 'GangwonModu';
+    src: url('../fonts/kangwon_modu.otf');
+    src: url('../fonts/kangwon_modu_light.otf')
+}
+
+@font-face { 
+    font-family: 'GangwonTeun';
+    src: url('../fonts/kagnwon_teun.otf')
 }

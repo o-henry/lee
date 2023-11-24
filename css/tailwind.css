@@ -9,6 +9,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Vina+Sans&display=swap');
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face { 
   font-family: 'Love Ya Like A Sister';
   src: url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap') format('woff');
@@ -65,7 +77,36 @@
     font-style: normal;
 }
 
-
+.font-kangT {
+  font-family: 'GangwonTeun';
+}
+.font-kangModu { 
+  font-family: 'GangwonModu';
+}
+.font-kangSae {
+  font-family: 'GangwonSae';
+}
+.font-cafedang {
+    font-family: 'Cafe24Dangdanghae';
+}
+.font-hs {
+    font-family: 'HSSaemaul-Regular';
+}
+.font-im {
+    font-family: Outfit, 'IM_Hyemin-Regular';
+}
+.font-kangOk {
+    font-family: 'GangwonOk'; 
+}
+.font-kotra {
+    font-family: 'KOTRAHOPE';
+}
+.font-universe {
+  font-family: 'YUniverse-B';
+}
+.font-cafeair {
+  font-family: 'Cafe24SsurroundAir';
+}
 .font-become {
   font-family:  'Love Ya Like A Sister', 'Become_one';
   font-weight: 100;
@@ -122,7 +163,7 @@
 }
 
 #kbar-listbox {
-  font-family: "ACCchildrenskyOTF";
+  font-family: "GangwonOk";
 }
 
 input { 
@@ -181,3 +222,4 @@ blockquote {
   font-weight: 400 !important;
   font-family: "Outfit", "HakgyoansimWoojuR" !important;
 }
+
