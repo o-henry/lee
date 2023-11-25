@@ -16,5 +16,5 @@ export const components: MDXComponents = {
   table: TableWrapper,
   BlogNewsletterForm,
   p: P,
-  li: UL
+  li: UL,
 }

@@ -79,9 +79,6 @@
     font-style: normal;
 }
 
-.font-air {
-  font-family: 'air';
-}
 .font-lineSans {
   font-family: 'LineSeedSans';
 }
@@ -104,7 +101,7 @@
     font-family: 'HSSaemaul-Regular';
 }
 .font-im {
-    font-family:  Outfit, 'IM_Hyemin-Regular';
+    font-family:  Outfit,'IM_Hyemin-Regular';
 }
 .font-kangOk {
     font-family: 'GangwonOk'; 
@@ -132,7 +129,7 @@
   font-family: 'GmarketSansMedium', Outfit;
 }
 .font-mbc { 
-  font-family: Outfit, 'MBC1961GulimM' ;
+  font-family: 'MBC1961GulimM' ;
 }
 .font-dm { 
   font-family: "DM Mono", monospace;
@@ -151,7 +148,7 @@
   /* font-weight: bold; */
 }
 .font-go {
-  font-family: 'Love Ya Like A Sister', 'GmarketSansMedium' ;
+  font-family: 'GOSEONGGEUMGANGNURI' ;
   font-weight: 500;
 }
 .font-hak { 

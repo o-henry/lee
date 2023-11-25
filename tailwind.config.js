@@ -52,8 +52,8 @@ module.exports = {
             'h1,h2': {
               fontWeight: '600',
               letterSpacing: theme('letterSpacing.tight'),
-              fontFamily: ["Outfit"],
-              fontSize: '1.2rem'
+              fontFamily: ["KOTRAHOPE"],
+              fontSize: '1.8rem'
             },
             h3: {
               fontWeight: '500',

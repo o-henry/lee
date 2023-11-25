@@ -72,20 +72,10 @@
 
 @font-face { 
     font-family: 'LineSeedSans';
-    /* src: url('../fonts/LINESeedSans_A_Th.otf'); */
+    src: url('../fonts/LINESeedSans_A_Th.otf');
     src: url('../fonts/LINESeedSans_A_Rg.otf');
-    /* src: url('../fonts/LINESeedSans_A_Bd.otf'); */
-    /* src: url('../fonts/LINESeedSans_A_He.otf'); */
-    /* src: url('../fonts/LINESeedSans_A_XBd.otf'); */
+    src: url('../fonts/LINESeedSans_A_Bd.otf');
+    src: url('../fonts/LINESeedSans_A_He.otf');
+    src: url('../fonts/LINESeedSans_A_XBd.otf');
     unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-
-@font-face { 
-    font-family: 'air';
-    src: url('../fonts/AirbnbCereal_W_Lt.otf');
-    /* src: url('../fonts/AirbnbCereal_W_Md.otf'); */
-    /* src: url('../fonts/AirbnbCereal_W_Bd.otf'); */
-    /* src: url('../fonts/AirbnbCereal_W_Bk.otf'); */
-    /* src: url('../fonts/AirbnbCereal_W_Blk.otf'); */
-    /* src: url('../fonts/AirbnbCereal_W_XBd.otf'); */
 }
