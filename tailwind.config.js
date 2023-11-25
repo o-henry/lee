@@ -50,12 +50,14 @@ module.exports = {
               textDecoration: 'none'
             },
             'h1,h2': {
-              fontWeight: '700',
+              fontWeight: '600',
               letterSpacing: theme('letterSpacing.tight'),
-              fontFamily: ["Outfit", "MBC1961GulimM"],
+              fontFamily: ["Outfit"],
+              fontSize: '1.2rem'
             },
             h3: {
-              fontWeight: '600',
+              fontWeight: '500',
+              fontFamily: ["KOTRAHOPE"]
             },
             code: {
               color: theme('colors.indigo.500'),
@@ -73,7 +75,7 @@ module.exports = {
               content: 'none',
             },
             li: {
-              fontFamily: 'ACCchildrenskyOTF'
+              fontFamily: ["LineSeedSans", "IM_Hyemin-Regular"]
             }
           },
         },

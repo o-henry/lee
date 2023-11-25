@@ -1,0 +1,91 @@
+@font-face { 
+    font-family: 'MBC1961GulimM';
+    src: url('../fonts/MBC1961GOTFM.otf') format("truetype");
+    /* size-adjust: 100%; */
+}
+
+@font-face {
+    font-family: 'MBC1961M';
+    src: url('../fonts/MBC1961OTFM.otf') format("truetype")
+}
+
+@font-face { 
+    font-family: 'Hana_handwriting';
+    src: url('../fonts/nanum_son.ttf');
+}
+
+@font-face {
+    font-family: 'Become_one';
+    src: url('../fonts/nanum_hana.ttf');
+    size-adjust: 150%;
+} 
+
+@font-face { 
+    font-family: 'Cafe24Dangdanghae';
+    src: url('../fonts/Cafe24Dangdanghae-v2.0.otf')
+}
+
+@font-face { 
+    font-family: 'HSSaemaul-Regular';
+    src: url('../fonts/HSSaemaul-Regular.ttf');
+    size-adjust: 150%;
+}
+
+@font-face { 
+    font-family: 'IM_Hyemin-Regular';
+    src: url('../fonts/IM_Hyemin-Regular.otf')
+}
+
+@font-face { 
+    font-family: 'GangwonSae';
+    src: url('../fonts/kangwon_saeum.otf');
+}
+
+@font-face { 
+    font-family: 'GangwonOk';
+    src: url('../fonts/kangwon_ok.ttf');
+    size-adjust: 150%;
+}
+
+@font-face { 
+    font-family: 'KOTRAHOPE';
+    src: url('../fonts/KOTRAHOPE.otf');
+}
+
+@font-face { 
+    font-family: 'GangwonModu';
+    src: url('../fonts/kangwon_modu.otf');
+    src: url('../fonts/kangwon_modu_light.otf')
+}
+
+@font-face { 
+    font-family: 'GangwonTeun';
+    src: url('../fonts/kagnwon_teun.otf');
+}
+
+@font-face { 
+    font-family: 'LineSeedKR';
+    src: url('../fonts/LINESeedKR-Th.otf');
+    /* src: url('../fonts/LINESeedKR-Bd.otf'); */
+    /* src: url('../fonts/LINESeedKR-Rg.otf'); */
+}
+
+@font-face { 
+    font-family: 'LineSeedSans';
+    /* src: url('../fonts/LINESeedSans_A_Th.otf'); */
+    src: url('../fonts/LINESeedSans_A_Rg.otf');
+    /* src: url('../fonts/LINESeedSans_A_Bd.otf'); */
+    /* src: url('../fonts/LINESeedSans_A_He.otf'); */
+    /* src: url('../fonts/LINESeedSans_A_XBd.otf'); */
+    unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
+}
+
+@font-face { 
+    font-family: 'air';
+    src: url('../fonts/AirbnbCereal_W_Lt.otf');
+    /* src: url('../fonts/AirbnbCereal_W_Md.otf'); */
+    /* src: url('../fonts/AirbnbCereal_W_Bd.otf'); */
+    /* src: url('../fonts/AirbnbCereal_W_Bk.otf'); */
+    /* src: url('../fonts/AirbnbCereal_W_Blk.otf'); */
+    /* src: url('../fonts/AirbnbCereal_W_XBd.otf'); */
+}
