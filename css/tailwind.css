@@ -231,3 +231,11 @@ blockquote {
   font-family: "Outfit", "HakgyoansimWoojuR" !important;
 }
 
+.issue { 
+  font-family: 'KOTRAHOPE';
+}
+
+.issue::before { 
+  content: "▶ ";
+  white-space: pre-wrap;
+}

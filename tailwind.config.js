@@ -53,7 +53,7 @@ module.exports = {
               fontWeight: '600',
               letterSpacing: theme('letterSpacing.tight'),
               fontFamily: ["KOTRAHOPE"],
-              fontSize: '1.8rem'
+              fontSize: '1.8rem',
             },
             h3: {
               fontWeight: '500',
