@@ -248,3 +248,17 @@ blockquote {
   content: "▶ ";
   white-space: pre-wrap;
 }
+/*
+  ==========
+  blockquote
+  ==========
+*/
+blockquote > p {
+  display:inline;
+}
+blockquote > p:before {
+  content: none !important;
+}
+blockquote > p:after {
+  content: none !important;
+}

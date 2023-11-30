@@ -76,7 +76,7 @@ module.exports = {
             },
             li: {
               fontFamily: ["LineSeedSans", "IM_Hyemin-Regular"]
-            }
+            },
           },
         },
         invert: {
