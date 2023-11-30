@@ -18,7 +18,7 @@ export default function Home({ posts }) {
           <p className="text-lg font-nerko leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}  
           </p>
-          <p className="font-out">
+          <p className="font-kangSae text-2xl">
             I am a developer with a keen interest in web and app development.  <br />
             I currently focus on native iOS app development using SwiftUI.
           </p>

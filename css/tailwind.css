@@ -79,11 +79,17 @@
     font-style: normal;
 }
 
+.font-bantayog { 
+  font-family: 'Bantayog';
+}
 .font-lineSans {
   font-family: 'LineSeedSans';
 }
 .font-lineKR {
   font-family: 'LineSeedKR';
+}
+.font-gangAll { 
+  font-family: 'GangwonEduAll';
 }
 .font-kangT {
   font-family: 'GangwonTeun';
@@ -91,8 +97,11 @@
 .font-kangModu { 
   font-family: 'GangwonModu';
 }
+.font-gangEdu { 
+  font-family: 'GangwonEduPower';
+}
 .font-kangSae {
-  font-family: 'GangwonSae';
+  font-family: 'GangwonEduSaeeum';
 }
 .font-cafedang {
     font-family: 'Cafe24Dangdanghae';

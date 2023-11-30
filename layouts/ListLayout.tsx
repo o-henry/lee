@@ -80,7 +80,7 @@ export default function ListLayout({
     <>
       <div className="">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-2xl font-cafedang font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+          <h1 className="text-2xl font-bantayog font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             {title} 
           </h1>
           <div className="relative max-w-2xl">
@@ -126,7 +126,7 @@ export default function ListLayout({
                   <div className="space-y-0 xl:col-span-3">
                     <div>
                       <h3 className="text-xl font-bold font-out leading-8 tracking-tight">
-                        <Link href={`/${path}`} className="font-cafedang text-gray-900 dark:text-gray-100">
+                        <Link href={`/${path}`} className="font-bantayog text-3xl text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
                       </h3>

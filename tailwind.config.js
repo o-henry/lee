@@ -52,12 +52,12 @@ module.exports = {
             'h1,h2': {
               fontWeight: '600',
               letterSpacing: theme('letterSpacing.tight'),
-              fontFamily: ["KOTRAHOPE"],
+              fontFamily: ["GangwonEduSaeeum"],
               fontSize: '1.8rem',
             },
             h3: {
-              fontWeight: '500',
-              fontFamily: ["KOTRAHOPE"]
+              fontWeight: '400',
+              fontFamily: ["Bantayog"]
             },
             code: {
               color: theme('colors.indigo.500'),

@@ -74,8 +74,90 @@
     font-family: 'LineSeedSans';
     src: url('../fonts/LINESeedSans_A_Th.otf');
     src: url('../fonts/LINESeedSans_A_Rg.otf');
-    src: url('../fonts/LINESeedSans_A_Bd.otf');
-    src: url('../fonts/LINESeedSans_A_He.otf');
-    src: url('../fonts/LINESeedSans_A_XBd.otf');
+    /* src: url('../fonts/LINESeedSans_A_Bd.otf'); */
+    /* src: url('../fonts/LINESeedSans_A_He.otf'); */
+    /* src: url('../fonts/LINESeedSans_A_XBd.otf'); */
     unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
 }
+
+
+@font-face {
+    font-family: 'Bantayog';
+    src: url('../fonts/Bantayog-Light.otf');
+} 
+
+@font-face {
+    font-family: 'Bantayog';
+    src: url('../fonts/Bantayog-Regular.otf');
+} 
+
+@font-face {
+    font-family: 'Bantayog';
+    src: url('../fonts/Bantayog-Semilight.otf');
+} 
+@font-face {
+    font-family: 'Bantayog';
+    src: url('../fonts/Bantayog-Light.otf');
+} 
+
+
+@font-face {
+    font-family: 'GangwonEduAll';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GangwonEduAll';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.ttf') format("truetype");
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: 'GangwonEduHyeonokT';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduHyeonokT.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduHyeonokT.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduHyeonokT.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduHyeonokT.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduHyeonokT.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GangwonEduPower';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduPower.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduPower.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduPower.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduPower.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduPower.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GangwonEduSaeeum';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduSaeeum.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduSaeeum.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduSaeeum.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduSaeeum.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduSaeeum.ttf') format("truetype");
+    font-display: swap;
+} 
+
+
+
+
