@@ -21,15 +21,29 @@ module.exports = {
         13: '3.25rem',
         14: '3.5rem',
       },
+      fontWeight: {
+        thin: '100',
+        extralight: '200',
+        light: '300',
+        normal: '400',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+        'extra-bold': '800',
+        black: '900',
+      },
       fontFamily: {
         'cafedang': ['Cafe24Dangdanghae'],
         'hak': ['HakgyoansimWoojuR'],
         'young': ['Young Serif'],
+        'locus': ['locus_sangsang'],
         'sta': ["Staatliches", "MBC1961GulimM"],
         'dm': ['DM Serif Display'],
         'acc': ['ACCchildrenskyOTF'],
         'nerko': ['Nerko One'],
-        sans: ["Outfit", "HakgyoansimWoojuR", "AppleSDGothicNeo", "Noto Sans KR", "Arial", "sans-serif"],
+        'guelmi': ['Ownglyph guelmi'],
+        'bayon': ['Bayon'],
+        sans: ["Outfit", "locus_sangsang", "Ownglyph guelmi", "HakgyoansimWoojuR", "AppleSDGothicNeo", "Noto Sans KR", "Arial", "sans-serif"],
 
       },
       colors: {
@@ -52,8 +66,8 @@ module.exports = {
             'h1,h2': {
               fontWeight: '600',
               letterSpacing: theme('letterSpacing.tight'),
-              fontFamily: ["GangwonEduSaeeum"],
-              fontSize: '1.8rem',
+              fontFamily: ["Sequel"],
+              fontSize: '1.5rem',
             },
             h3: {
               fontWeight: '400',

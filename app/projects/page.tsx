@@ -12,7 +12,7 @@ export default function Projects() {
           <h1 className="text-3xl font-young font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Projects
           </h1>
-          <p className="text-lg font-acc leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-lg font-bayon leading-7 text-gray-500 dark:text-gray-400">
           </p>
         </div>
         {/* <div className="container py-8"> */}

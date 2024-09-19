@@ -9,8 +9,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Vina+Sans&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sequel');
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sfzYWFYtnZ_Cg-t0Uq_rfivrdYNY1cABrBdwEoaQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sfzYWFYtnZ_Cg-t0Uq_rfivrdYNY1cABrBdwEoaQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sfzYWFYtnZ_Cg-t0Uq_rfivrdYNY1cABrBdwEoaQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sfzYWFYtnZ_Cg-t0Uq_rfivrdYNY1cABrBdwEoaQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sZzYWFYtnZ_Cg-t0Uq_rfivrdYNYhsAhDGVQM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sZzYWFYtnZ_Cg-t0Uq_rfivrdYNYhsAhDGVQM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sZzYWFYtnZ_Cg-t0Uq_rfivrdYNYhsAhDGVQM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/googlesansmono/v20/P5sZzYWFYtnZ_Cg-t0Uq_rfivrdYNYhsAhDGVQM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
     font-family: 'YUniverse-B';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
@@ -78,7 +147,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+  font-family: 'locus_sangsang';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+.font-google {
+  font-family: 'Google Sans Mono';
+}
 .font-bantayog { 
   font-family: 'Bantayog';
 }
@@ -172,6 +250,25 @@
 .font-nerko { 
   font-family: "Nerko One";
 }
+.font-guelmi {
+  font-family: "Ownglyph guelmi"
+}
+.font-locus {
+  font-family: Recoleta, "locus_sangsang";
+}
+.font-bayon {
+  font-family: "Bayon";
+}
+.font-sequel {
+  font-family: "Sequel";
+}
+.font-recoleta {
+  font-family: "Recoleta", sans-serif;
+}
+.font-noto {
+  font-family: Google Sans Mono, "Noto Sans KR", sans-serif;
+}
+
 .font-acc {
   font-family: "ACCchildrenskyOTF";
 }
@@ -180,15 +277,16 @@
 }
 
 #kbar-listbox {
-  font-family: "GangwonOk";
+  font-family: "Google Sans Mono";
 }
 
 input { 
-  font-family: "GangwonOk";
+  font-family: "Google Sans Mono";
+  font-size: 14px;
 }
 
 kbd {
-  font-family: "GangwonOk";
+  font-family: "Google Sans Mono";
 }
 
 /* =============================== */
@@ -242,6 +340,8 @@ blockquote {
 
 .issue { 
   font-family: 'KOTRAHOPE';
+  /* font-family: 'GOSEONGGEUMGANGNURI'; */
+  /* font-family: "Nerko One"; */
 }
 
 .issue::before { 

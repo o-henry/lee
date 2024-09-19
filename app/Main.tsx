@@ -12,14 +12,16 @@ export default function Home({ posts }) {
     <>
       <div className="">
         <div className="pb-8 pt-10">
-          <h1 className="text-3xl font-kotra font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-3xl font-sequel font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
            <a href={siteMetadata.github} target="_blank" rel="noopener noreferrer">Hi</a>
           </h1>
-          <p className="text-lg font-nerko leading-7 text-gray-500 dark:text-gray-400">
+          <br />
+          <p className="text-lg font-sequel leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}  
           </p>
-          <p className="font-kangSae text-2xl">
-            I am a developer with a keen interest in web and app development.  <br />
+          {/* <p className="font-kangSae text-2xl"> */}
+          <p className="font-google text-md">
+            I am a developer with a interest in web and app development.  <br />
             I currently focus on native iOS app development using SwiftUI.
           </p>
         </div>
@@ -30,9 +32,9 @@ export default function Home({ posts }) {
         </svg>
 
         <div className="mt-4" />
-        <a className="" href={siteMetadata.github} target="_blank" rel="noopener noreferrer">github</a>
+        <a className="font-bantayog text-base font-medium" href={siteMetadata.github} target="_blank" rel="noopener noreferrer">github</a>
         
-        <div className='mt-16 font-acc'>
+        <div className='mt-16 font-sequel'>
           <span>
             <Link href="/blog">
               Posts
@@ -40,7 +42,7 @@ export default function Home({ posts }) {
           </span>  
         </div>
 
-        <ul className="font-nerko">
+        <ul className="">
           {!posts.length && 'No posts found.'}
           {/* rendering post */}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
@@ -51,14 +53,14 @@ export default function Home({ posts }) {
                   <div className="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-go font-medium leading-6 text-gray-500 dark:text-gray-400">
+                      <dd className="text-base font-bayon font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
-                          <h2 className="text-3xl font-nerko leading-8 tracking-tight">
+                          <h2 className="text-3xl font-sequel leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
                               className="text-black-600 dark:text-gray-100"

@@ -2,7 +2,8 @@
 /* Code title styles */
 .remark-code-title {
   @apply rounded-t bg-gray-700 px-5 py-3 font-mono text-sm font-bold text-gray-200 dark:bg-gray-800;
-  font-family: 'Nerko One';
+  /* font-family: 'Nerko One'; */
+  font-family: 'Bayon';
   border-radius: .75rem !important;
   margin-bottom: 1.5px;
 }

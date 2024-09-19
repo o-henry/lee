@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'hang.out',
+  title: 'Log',
   author: 'henry',
   headerTitle: '',
   description: "I'm henry",

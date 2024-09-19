@@ -30,7 +30,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
               <dl>
                 <div>
                   <dt className="sr-only">Published on</dt>
-                  <dd className="text-base text-left font-acc font-medium leading-6 text-gray-500 dark:text-gray-400">
+                  <dd className="text-base text-left font-bayon font-medium leading-6 text-gray-500 dark:text-gray-400">
                     <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                   </dd>
                 </div>
@@ -69,7 +69,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
                   <div className="grow pt-4 xl:pt-8 text-start">
                     <Link
                       href={`/${prev.path}`}
-                      className="font-acc text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
+                      className="font-kotra text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
                       aria-label={`Previous post: ${prev.title}`}
                     >
                       {'<'} {prev.title}
@@ -83,7 +83,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
                   <div className="grow pt-4 xl:pt-8 text-end">
                     <Link
                       href={`/${next.path}`}
-                      className="font-acc text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
+                      className="font-kotra text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
                       aria-label={`Next post: ${next.title}`}
                     >
                       {next.title} {'>'}

@@ -28,7 +28,7 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
 
   return (
     <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-      <nav className="flex font-acc justify-between">
+      <nav className="flex font-sequel justify-between">
         {!prevPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
             Previous
@@ -80,7 +80,7 @@ export default function ListLayout({
     <>
       <div className="">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-2xl font-bantayog font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+          <h1 className="text-2xl font-sequel font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             {title} 
           </h1>
           <div className="relative max-w-2xl">
@@ -91,7 +91,7 @@ export default function ListLayout({
                 type="text"
                 onChange={(e) => setSearchValue(e.target.value)}
                 placeholder="Search articles"
-                className="block w-full font-kangOk rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
+                className="block w-full font-google rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
               />
             </label>
             <svg
@@ -110,7 +110,7 @@ export default function ListLayout({
             </svg>
           </div>
         </div>
-        <ul className="font-nerko">
+        <ul className="font-sequel">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((post) => {
             const { path, date, title, summary, tags } = post
@@ -126,7 +126,7 @@ export default function ListLayout({
                   <div className="space-y-0 xl:col-span-3">
                     <div>
                       <h3 className="text-xl font-bold font-out leading-8 tracking-tight">
-                        <Link href={`/${path}`} className="font-bantayog text-3xl text-gray-900 dark:text-gray-100">
+                        <Link href={`/${path}`} className="font-sequel text-3xl text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
                       </h3>

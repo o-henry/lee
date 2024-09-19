@@ -1,0 +1,15 @@
+---
+title: custom view 
+date: '2023-11-23'
+tags: ['iOS', 'swiftUI', 'Figma']
+draft: true
+summary: ''
+---
+
+<span class="issue">ISSUE [#3](https://github.com/o-henry/lee/issues/3)</span>
+
+## custom view
+
+앱 개발시 View를 생성하다보면 반복적으로 사용하는 부분이 있으며 이를 컴포넌트화 하고싶은건 개발자들의 공통적인 마음이다. DRY를 명심하자.
+같은 코드를 복사·붙여넣기 하다보면 수정이 필요할때 수정을 해야할곳이 늘어남을 의미하며, 이는 실수할 확률과 비례하다. 이를 해결하기위해
+`ViewModifier` 의 사용을 적극 추천한다. 해결책은 일반적으로 사용되는 modifier를 ViewModifier로 정의된 별도의 구조에 함께 저장하는 것이다. 그러면 이 ViewModifier 구조를 여러 보기에 적용할 수 있다. 

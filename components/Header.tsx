@@ -13,8 +13,8 @@ const Header = () => {
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
-            <div className="mr-3 font-nerko">
-              Hang.on
+            <div className="mr-3 font-sequel">
+              Henry
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
               <div className="hidden h-6 text-2xl font-semibold sm:block">
@@ -26,7 +26,7 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      <div className="flex font-acc items-center space-x-4 leading-5 sm:space-x-6">
+      <div className="flex font-bayon items-center space-x-4 leading-5 sm:space-x-6">
         {headerNavLinks
           .filter((link) => link.href !== '/')
           .map((link) => (
