@@ -152,14 +152,7 @@
     font-display: swap;
     font-style: normal;
 }
-@font-face {
-    font-family: 'GOSEONGGEUMGANGNURI';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GOSEONGGEUMGANGNURI.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;;
-}
+
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
@@ -223,10 +216,7 @@
   font-family: 'Outfit';
   /* font-weight: bold; */
 }
-.font-go {
-  font-family: 'GOSEONGGEUMGANGNURI' ;
-  font-weight: 500;
-}
+
 .font-hak { 
   font-family: Outfit, 'HakgyoansimWoojuR';
 }
@@ -243,7 +233,8 @@
   font-family: "Ownglyph guelmi"
 }
 .font-locus {
-  font-family:  DM Mono, "locus_sangsang";
+  font-family:  iA Writer Mono S, "locus_sangsang";
+  font-size: 0.75rem;
 }
 .font-bayon {
   font-family: "Bayon";
@@ -331,8 +322,6 @@ blockquote {
 
 .issue { 
   font-family: 'KOTRAHOPE';
-  /* font-family: 'GOSEONGGEUMGANGNURI'; */
-  /* font-family: "Nerko One"; */
 }
 
 .issue::before { 
@@ -345,6 +334,7 @@ blockquote {
   ==========
 */
 blockquote > p {
+  font-family: "iA Writer Mono S", 'locus_sangsang' !important;
   display:inline;
 }
 blockquote > p:before {

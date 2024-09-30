@@ -28,6 +28,14 @@
     src: url('../fonts/Bantayog-Light.otf');
 } 
 
+@font-face { 
+    font-family: 'iA Writer Mono S';
+    src: url('../fonts/iAWriterMonoS-Italic.ttf')
+}
+@font-face {
+    font-family: 'iA Writer Mono S-Bold';
+    src: url('../fonts/iAWriterMonoS-BoldItalic.ttf')
+}
  
 
 

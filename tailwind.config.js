@@ -59,8 +59,8 @@ module.exports = {
                 color: `${theme('colors.primary.600')}`,
               },
               code: { color: theme('colors.primary.400') },
-              fontFamily: 'GOSEONGGEUMGANGNURI',
-              fontSize: '1.15em',
+              fontFamily:'iA Writer Mono S', 
+              fontSize: '0.8rem',
               textDecoration: 'none'
             },
             'h1,h2': {
