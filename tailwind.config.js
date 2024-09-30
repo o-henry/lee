@@ -33,7 +33,7 @@ module.exports = {
         black: '900',
       },
       fontFamily: {
-        'cafedang': ['Cafe24Dangdanghae'],
+        // 'cafedang': ['Cafe24Dangdanghae'],
         'hak': ['HakgyoansimWoojuR'],
         'young': ['Young Serif'],
         'locus': ['locus_sangsang'],
@@ -89,7 +89,7 @@ module.exports = {
               content: 'none',
             },
             li: {
-              fontFamily: ["LineSeedSans", "IM_Hyemin-Regular"]
+              // fontFamily: ["LineSeedSans", "IM_Hyemin-Regular"]
             },
           },
         },

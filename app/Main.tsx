@@ -19,8 +19,9 @@ export default function Home({ posts }) {
           <p className="text-lg font-sequel leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}  
           </p>
+          <br />
           {/* <p className="font-kangSae text-2xl"> */}
-          <p className="font-google text-md">
+          <p className="font-ia text-md">
             I am a developer with a interest in web and app development.  <br />
             I currently focus on native iOS app development using SwiftUI.
           </p>
@@ -32,7 +33,7 @@ export default function Home({ posts }) {
         </svg>
 
         <div className="mt-4" />
-        <a className="font-bantayog text-base font-medium" href={siteMetadata.github} target="_blank" rel="noopener noreferrer">github</a>
+        <a className="font-ia text-base font-medium" href={siteMetadata.github} target="_blank" rel="noopener noreferrer">github</a>
         
         <div className='mt-16 font-sequel'>
           <span>
@@ -53,7 +54,7 @@ export default function Home({ posts }) {
                   <div className="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-bayon font-medium leading-6 text-gray-500 dark:text-gray-400">
+                      <dd className="text-base uppercase font-bantayog font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
                     </dl>

@@ -7,20 +7,39 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nerko+One&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Young+Serif&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 @import url('https://fonts.cdnfonts.com/css/sequel');
 @import url('https://fonts.cdnfonts.com/css/recoleta');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');@font-face { 
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@font-face { 
   font-family: 'DM Mono';
   font-style: italic;
   src: url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 }
+/* ia-writer-mono-latin-400-italic */
+@font-face {
+  font-family: 'iA Writer Mono';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-400-italic.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-400-italic.woff) format('woff');
+}
+
+/* ia-writer-mono-latin-700-italic */
+@font-face {
+  font-family: 'iA Writer Mono';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-700-italic.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-700-italic.woff) format('woff');
+}
+
 /*
  * See: https://fonts.google.com/license/googlerestricted
  */
+
 /* latin */
 @font-face {
   font-family: 'Google Sans Mono';
@@ -91,12 +110,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Cafe24SsurroundAir';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face { 
   font-family: 'Love Ya Like A Sister';
   src: url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap') format('woff');
@@ -165,38 +179,10 @@
 .font-bantayog { 
   font-family: 'Bantayog';
 }
-.font-lineSans {
-  font-family: 'LineSeedSans';
-}
-.font-lineKR {
-  font-family: 'LineSeedKR';
-}
-.font-gangAll { 
-  font-family: 'GangwonEduAll';
-}
-.font-kangT {
-  font-family: 'GangwonTeun';
-}
-.font-kangModu { 
-  font-family: 'GangwonModu';
-}
-.font-gangEdu { 
-  font-family: 'GangwonEduPower';
-}
-.font-kangSae {
-  font-family: 'GangwonEduSaeeum';
-}
-.font-cafedang {
-    font-family: 'Cafe24Dangdanghae';
-}
-.font-hs {
-    font-family: 'HSSaemaul-Regular';
-}
-.font-im {
-    font-family:  Outfit,'IM_Hyemin-Regular';
-}
-.font-kangOk {
-    font-family: 'GangwonOk'; 
+
+.font-ia {
+  font-family: 'iA Writer Mono S', monospace;
+  font-style: italic;
 }
 .font-kotra {
     font-family: 'KOTRAHOPE';
@@ -204,9 +190,7 @@
 .font-universe {
   font-family: 'YUniverse-B';
 }
-.font-cafeair {
-  font-family: 'Cafe24SsurroundAir';
-}
+
 .font-become {
   font-family:  'Love Ya Like A Sister', 'Become_one';
   font-weight: 100;
@@ -271,7 +255,7 @@
   font-family: "Recoleta", sans-serif;
 }
 .font-noto {
-  font-family:  DM Mono, "Noto Sans KR", sans-serif;
+  font-family: iA Writer Mono S, "Noto Sans KR", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -368,4 +352,23 @@ blockquote > p:before {
 }
 blockquote > p:after {
   content: none !important;
+}
+
+.high-light {
+  background-color: #fcd19c;
+  color: black;
+  border-radius: 4px;
+  padding: 0.3rem 0.2rem 0.3rem 0.3rem;
+  margin: 0 0.4rem 0 0.2rem;
+}
+
+.custom-blockquote {
+  font-family: Poppins, "SeoulNamsanL";
+  border-radius: 4px;
+  line-height: 1.9rem;
+  max-width: 100%;
+  font-size: 0.965rem;
+  font-weight: 100;
+  position: relative;
+  padding: 2rem 1rem;
 }
