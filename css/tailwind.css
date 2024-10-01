@@ -321,11 +321,13 @@ blockquote {
 }
 
 .issue { 
-  font-family: 'KOTRAHOPE';
+  /* font-family: 'KOTRAHOPE'; */
+  font-family: "iA Writer Mono S";
+  font-size: 0.8rem;
 }
 
 .issue::before { 
-  content: "▶ ";
+  content: "▶▷ ";
   white-space: pre-wrap;
 }
 /*
@@ -335,7 +337,7 @@ blockquote {
 */
 blockquote > p {
   font-family: "iA Writer Mono S", 'locus_sangsang' !important;
-  display:inline;
+  display: inline;
 }
 blockquote > p:before {
   content: none !important;

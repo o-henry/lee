@@ -71,7 +71,7 @@ module.exports = {
             },
             h3: {
               fontWeight: '400',
-              fontFamily: ["Bantayog"]
+              fontFamily: ["Sequel"]
             },
             code: {
               color: theme('colors.indigo.500'),
