@@ -273,6 +273,10 @@ kbd {
 
 /* =============================== */
 
+.funny { 
+  font-family: "Nerko One";
+}
+
 .task-list-item::before {
   @apply hidden;
 }
