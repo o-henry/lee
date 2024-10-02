@@ -47,7 +47,7 @@ yarn-error.log*
 .contentlayer
 
 # fonts
-.otf
-.ttf
-*.otf
-*.ttf
+# .otf
+# .ttf
+# *.otf
+# *.ttf
