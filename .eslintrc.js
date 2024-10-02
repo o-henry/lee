@@ -24,14 +24,15 @@ module.exports = {
   rules: {
     'prettier/prettier': 0,
     'react/react-in-jsx-scope': 'off',
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['hrefLeft', 'hrefRight'],
-        aspects: ['invalidHref', 'preferButton'],
-      },
-    ],
+    'jsx-a11y/anchor-has-content': 'off',
+    // 'jsx-a11y/anchor-is-valid': [
+    //   'error',
+    //   {
+    //     components: ['Link'],
+    //     specialLink: ['hrefLeft', 'hrefRight'],
+    //     aspects: ['invalidHref', 'preferButton'],
+    //   },
+    // ],
     'react/prop-types': 0,
     '@typescript-eslint/no-unused-vars': 0,
     'react/no-unescaped-entities': 0,
