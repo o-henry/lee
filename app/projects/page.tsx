@@ -50,13 +50,13 @@ export default function Projects() {
                         <br />
                         <br />
                         <br />
-                        <PTag /><Cmd> SWIFT_APP</Cmd>
+                        <PTag /><Cmd> SWIFTUI_APP</Cmd>
                         <br />
                         <Prod link="https://apps.apple.com/kr/app/%EB%85%B8%ED%81%AC-%EC%9E%A5%EC%86%8C-%EC%A7%88%EB%AC%B8-%EB%8B%B5%EB%B3%80-%EC%86%8C%ED%86%B5/id6670785828">
                            <span className="font-locus" style={{ fontSize: "0.9rem" }}>○ 노크</span>
                         </Prod>
                         <br />
-                        <span className="font-locus" style={{ fontSize: "0.7rem" }}>   - SwiftUI · MVVM · notification · OAuth · GeoHash · Firebase</span>
+                        <span className="font-locus" style={{ fontSize: "0.7rem", color: "skyblue"}}>   - SwiftUI · MVVM · notification · OAuth · GeoHash · Firebase</span>
                         <br />
                         <br />
                         <br />
@@ -115,7 +115,7 @@ export default function Projects() {
                             <span className="font-locus" style={{ fontSize: "0.9rem" }}>○ papaya</span>
                         </Prod>
                         <br />
-                        <span className="font-locus" style={{ fontSize: "0.7rem" }}>   - 반응형_웹을 활용한 모바일_화면적용</span>
+                        <span className="font-locus" style={{ fontSize: "0.7rem", color: "skyblue" }}>   - 반응형_웹을 활용한 모바일_화면적용</span>
                         <br />
                         <br />
                         <br />

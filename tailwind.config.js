@@ -37,7 +37,7 @@ module.exports = {
         'hak': ['HakgyoansimWoojuR'],
         'young': ['Young Serif'],
         'locus': ['locus_sangsang'],
-        'sta': ["Staatliches", "MBC1961GulimM"],
+        'sta': ["Staatliches"],
         'dm': ['DM Serif Display'],
         'acc': ['ACCchildrenskyOTF'],
         'nerko': ['Nerko One'],

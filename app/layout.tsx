@@ -83,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between font-sans">
-              <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
+              <SearchProvider>
                 <Header />
                 <main className="mb-auto">{children}</main>
               </SearchProvider>
