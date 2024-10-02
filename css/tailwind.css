@@ -368,3 +368,13 @@ blockquote > p:after {
   position: relative;
   padding: 2rem 1rem;
 }
+
+.blog-post pre {
+  padding: 2.5rem 1rem 1.5rem 1.5rem !important;
+  border-radius: 12px !important;
+  overflow: auto !important;
+  background-image: url("../public/static/favicons/mac-style.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 44px 10px !important;
+  background-position: 16px 14px !important;
+}
