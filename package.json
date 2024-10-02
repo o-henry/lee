@@ -1,6 +1,5 @@
 {
-  "homepage": "http://o-henry.github.io/o-henry.github.io",
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "henry-log",
   "version": "2.1.0",
   "private": true,
   "scripts": {
