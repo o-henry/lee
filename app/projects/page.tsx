@@ -7,7 +7,7 @@ export const metadata = genPageMetadata({ title: 'Projects' })
 export default function Projects() {
   return (
     <>
-    <div className="mx-14">
+    <div className="mx-8">
             <div className="blog-post">
                 <pre
                     className="language-typescript"
