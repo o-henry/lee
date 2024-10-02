@@ -26,11 +26,11 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
       <article>
         <div>
           <header>
-            <div className="space-y-1 border-b border-gray-200 pb-10 text-center dark:border-gray-700">
+            <div className="space-y-1 border-b border-gray-200 pb-10 text-center">
               <dl>
                 <div>
                   <dt className="sr-only">Published on</dt>
-                  <dd className="text-base text-left uppercase font-bantayog font-medium leading-6 text-gray-500 dark:text-gray-400">
+                  <dd className="text-base text-left uppercase font-bantayog font-medium leading-6 text-gray-500">
                     <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                   </dd>
                 </div>
@@ -40,21 +40,21 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
               </div>
             </div>
           </header>
-          <div className="grid-rows-[auto_1fr] divide-gray-200 pb-8 dark:divide-gray-700 xl:divide-y-0">
-            <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
+          <div className="grid-rows-[auto_1fr] divide-gray-200 pb-8  xl:divide-y-0">
+            <div className="divide-y divide-gray-200  xl:col-span-3 xl:row-span-2 xl:pb-0">
+              <div className="prose max-w-none pb-8 pt-10 ">{children}</div>
               {/* <div className="prose mx-auto max-w-2xl px-4 sm:px-6 xl:max-w-2xl xl:px-0 pb-8 pt-10 dark:prose-invert">{children}</div> */}
             </div>
             {siteMetadata.comments && (
-              <div className="pb-6 pt-6 text-center text-gray-700 dark:text-gray-300" id="comment">
+              <div className="pb-6 pt-6 text-center text-gray-700" id="comment">
                 <Comments slug={slug} />
               </div>
             )}
             <footer>
-                <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
+                <div className="divide-gray-200 text-sm font-medium leading-5  xl:col-start-1 xl:row-start-2 xl:divide-y">
                 {tags && (
                   <div className="py-4 xl:py-8">
-                    <h2 className="font-sequel text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                    <h2 className="font-sequel text-xs uppercase tracking-wide text-gray-500">
                       Tags
                     </h2>
                     <div className="flex flex-wrap mt-3">
@@ -70,7 +70,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
                   <div className="grow pt-4 xl:pt-8 text-start">
                     <Link
                       href={`/${prev.path}`}
-                      className="font-kotra text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
+                      className="font-kotra text-stone-500 hover:text-blue-600 "
                       aria-label={`Previous post: ${prev.title}`}
                     >
                       {'<'} {prev.title}
@@ -84,7 +84,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
                   <div className="grow pt-4 xl:pt-8 text-end">
                     <Link
                       href={`/${next.path}`}
-                      className="font-kotra text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
+                      className="font-kotra text-stone-500 hover:text-blue-600"
                       aria-label={`Next post: ${next.title}`}
                     >
                       {next.title} {'>'}

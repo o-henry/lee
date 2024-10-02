@@ -20,7 +20,7 @@ export default function Footer() {
           </svg>
         </a>
         </div>
-        <div className="mb-2 flex font-bantayog space-x-2 text-xs text-gray-500 dark:text-gray-400">
+        <div className="mb-2 flex font-bantayog space-x-2 text-xs text-gray-500 ">
           <div><a href={siteMetadata.github} target="_blank" rel="noopener noreferrer">{siteMetadata.author}</a></div>
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>

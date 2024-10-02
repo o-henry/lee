@@ -27,7 +27,7 @@ export default function PostMinimal({ content, next, prev, children }: LayoutPro
       <ScrollTopAndComment />
       <article>
         <div>
-          <div className="space-y-1 pb-10 text-center dark:border-gray-700">
+          <div className="space-y-1 pb-10 text-center">
             <div className="w-full">
               <Bleed>
                 <div className="relative aspect-[2/1] w-full">
@@ -39,11 +39,11 @@ export default function PostMinimal({ content, next, prev, children }: LayoutPro
               <PageTitle>{title}</PageTitle>
             </div>
           </div>
-          <div className="prose max-w-none py-4 dark:prose-invert">
+          <div className="prose max-w-none py-4">
             {children}
           </div>
           {siteMetadata.comments && (
-            <div className="pb-6 pt-6 text-center text-gray-700 dark:text-gray-300" id="comment">
+            <div className="pb-6 pt-6 text-center text-gray-700 " id="comment">
               <Comments slug={slug} />
             </div>
           )}
@@ -53,7 +53,7 @@ export default function PostMinimal({ content, next, prev, children }: LayoutPro
                 <div className="pt-4 font-acc xl:pt-8">
                   <Link
                     href={`/${prev.path}`}
-                    className="text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
+                    className="text-stone-500 hover:text-blue-600"
                     aria-label={`Previous post: ${prev.title}`}
                   >
                     {'<'} {prev.title}
@@ -64,7 +64,7 @@ export default function PostMinimal({ content, next, prev, children }: LayoutPro
                 <div className="pt-4 xl:pt-8 font-acc ">
                   <Link
                     href={`/${next.path}`}
-                    className="text-stone-500 hover:text-blue-600 dark:hover:text-blue-400"
+                    className="text-stone-500 hover:text-blue-600"
                     aria-label={`Next post: ${next.title}`}
                   >
                     {next.title} {'>'}

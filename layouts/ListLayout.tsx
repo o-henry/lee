@@ -80,7 +80,7 @@ export default function ListLayout({
     <>
       <div className="">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-2xl font-sequel font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+          <h1 className="text-2xl font-sequel font-extrabold leading-9 tracking-tight text-gray-900 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             {title} 
           </h1>
           <div className="relative max-w-2xl">
@@ -91,11 +91,11 @@ export default function ListLayout({
                 type="text"
                 onChange={(e) => setSearchValue(e.target.value)}
                 placeholder="Search articles"
-                className="block w-full font-google rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
+                className="block w-full font-google rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 "
               />
             </label>
             <svg
-              className="absolute right-3 top-3 h-5 w-5 text-gray-400 dark:text-gray-300"
+              className="absolute right-3 top-3 h-5 w-5 text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -119,14 +119,14 @@ export default function ListLayout({
                 <article className="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
                   <dl>
                     <dt className="sr-only">Published on</dt>
-                    <dd className="text-base uppercase font-bantayog font-medium leading-6 text-gray-500 dark:text-gray-400">
+                    <dd className="text-base uppercase font-bantayog font-medium leading-6 text-gray-500">
                       <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                     </dd>
                   </dl>
                   <div className="space-y-0 xl:col-span-3">
                     <div>
                       <h3 className="text-xl font-bold font-out leading-8 tracking-tight">
-                        <Link href={`/${path}`} className="font-sequel text-3xl text-gray-900 dark:text-gray-100">
+                        <Link href={`/${path}`} className="font-sequel text-3xl text-gray-900">
                           {title}
                         </Link>
                       </h3>
@@ -134,7 +134,7 @@ export default function ListLayout({
                         {tags?.map((tag) => <Tag key={tag} text={tag} />)}
                       </div> */}
                     </div>
-                    <div className="prose font-universe max-w-none text-gray-500 dark:text-gray-400">
+                    <div className="prose font-universe max-w-none text-gray-500 ">
                       {summary}
                     </div>
                   </div>
