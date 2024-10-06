@@ -27,7 +27,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
       <article>
         <div>
           <header>
-            <div className="space-y-1 border-b border-gray-200 pb-10 text-center">
+            <div className="space-y-1 border-b border-gray-200 pb-3 text-center">
               <dl>
                 <div>
                   <dt className="sr-only">Published on</dt>

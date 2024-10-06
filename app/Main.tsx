@@ -36,9 +36,9 @@ export default function Home({ posts }) {
         <div className="mt-4" />
 
   
-        <a className="font-ia text-base font-medium" href={siteMetadata.github} target="_blank" rel="noopener noreferrer">
+        {/* <a className="font-ia text-base font-medium" href={siteMetadata.github} target="_blank" rel="noopener noreferrer">
           github
-        </a>
+        </a> */}
         
         <div className='mt-16 font-sequel'>
           <span>

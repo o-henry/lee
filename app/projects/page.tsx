@@ -71,7 +71,7 @@ export default function Projects() {
                         </Prod>
                         <br />
                         <Prod link="https://youtu.be/vV-hFzdlYyU">
-                            <span className="font-locus" style={{ fontSize: "0.9rem" }}>○ 데비시스터즈_과제</span>
+                            <span className="font-locus" style={{ fontSize: "0.9rem" }}>○ 데브시스터즈_과제</span>
                         </Prod>
                         <br />
                         <br />
