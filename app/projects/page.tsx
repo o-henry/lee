@@ -22,7 +22,7 @@ export default function Projects() {
                                 fontSize: "2rem"
                             }}
                         >
-                            PROJET LISTS
+                          PROJECTS 
                         </h1>
                         
                         <br />
