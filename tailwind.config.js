@@ -43,7 +43,7 @@ module.exports = {
         'nerko': ['Nerko One'],
         'guelmi': ['Ownglyph guelmi'],
         'bayon': ['Bayon'],
-        sans: ["Outfit", "locus_sangsang", "Ownglyph guelmi", "HakgyoansimWoojuR", "AppleSDGothicNeo", "Noto Sans KR", "Arial", "sans-serif"],
+        sans: ["Sequel", "locus_sangsang", "Ownglyph guelmi", "HakgyoansimWoojuR", "AppleSDGothicNeo", "Noto Sans KR", "Arial", "sans-serif"],
 
       },
       colors: {
@@ -103,6 +103,7 @@ module.exports = {
               code: { color: theme('colors.primary.400') },
             },
             'h1,h2,h3,h4,h5,h6': {
+              fontFamily: ["Sequel"],
               color: theme('colors.gray.100'),
             },
           },

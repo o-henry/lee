@@ -31,7 +31,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
               <dl>
                 <div>
                   <dt className="sr-only">Published on</dt>
-                  <dd className="text-base text-left uppercase font-bantayog font-medium leading-6 text-gray-500">
+                  <dd className="!font-black text-base text-left uppercase font-bantayog font-medium leading-6 text-gray-500">
                     <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                   </dd>
                 </div>

@@ -119,7 +119,7 @@ export default function ListLayout({
                 <article className="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
                   <dl>
                     <dt className="sr-only">Published on</dt>
-                    <dd className="text-base uppercase font-bantayog font-medium leading-6 text-gray-500">
+                    <dd className="!font-black text-base uppercase font-bantayog font-medium leading-6 text-gray-500">
                       <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                     </dd>
                   </dl>
