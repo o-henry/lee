@@ -161,7 +161,7 @@
 }
 
 .font-google {
-  font-family: 'Google Sans Mono';
+  font-family: 'Google Sans Mono', monospace;
 }
 .font-bantayog { 
   font-family: 'Bantayog';
@@ -238,7 +238,7 @@
   font-family: "Recoleta", sans-serif;
 }
 .font-noto {
-  font-family: iA Writer Mono S, "Noto Sans KR", sans-serif;
+  font-family: Google Sans Mono, "Noto Sans KR", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
