@@ -88,6 +88,7 @@ images: []
 
 
 <br />
+<br />
 
 # Data Flow
 위 다이어그램 기준으로 코드 실행 과정을 살펴보면 
@@ -101,9 +102,9 @@ images: []
 
 > 여기서 사용자(View)는 메서드 호출만 할 뿐 2,3,4 번의 과정을 알지 못합니다.
 
+<br />
  
 ## Feature Grouping 
-	![Hexagonal](/static/images/step_by_step/hexagonal.png)
 
 
 	* 기능별로 파일을 분리하면 같은 목적의 코드들이 포함되어 있기 때문에 높은 응집도 와 낮은 결합력 유지하게 됩니다.
@@ -123,6 +124,7 @@ images: []
 			│   │   │   ├── View      
 			│   │   │   └── ViewModel  
 			│   │   └── Infrastructure(Out)   
+			│   │       ├── DTO       
 			│   │  		└── Persistence(Outbound Port의 구현체)   
 			│   └── Application    
 			│  	 	├── Port    

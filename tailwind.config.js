@@ -43,6 +43,7 @@ module.exports = {
         'nerko': ['Nerko One'],
         'guelmi': ['Ownglyph guelmi'],
         'bayon': ['Bayon'],
+        'sol': ['solway'],
         sans: ["Sequel", "locus_sangsang", "Ownglyph guelmi", "HakgyoansimWoojuR", "AppleSDGothicNeo", "Noto Sans KR", "Arial", "sans-serif"],
 
       },
