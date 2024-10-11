@@ -125,13 +125,13 @@ images: []
 			│   │   │   └── ViewModel  
 			│   │   └── Infrastructure(Out)   
 			│   │       ├── DTO       
-			│   │  		└── Persistence(Outbound Port의 구현체)   
+			│   │  		└── API(Outbound Port의 구현체)   
 			│   └── Application    
 			│  	 	├── Port    
 			│	    │   ├── In    
 			│      	│   │   └── UseCase    
 			│       │   └── Out    
-			│      	│    	└── Repository    
+			│      	│    	└── Port    
 			│      	└── Service(Inbound Port의 구현체)      
 			├── Core   
 			│   └── Domain    
@@ -191,14 +191,13 @@ User Story는 사용자 관점으로 소프트웨어(앱)의 기능에 대한 �
 1. 인커밍 어댑터(UI)로부터 입력을 받습니다. (SwiftUI에서 유저 액션)
 2. 비즈니스 규칙을 검증합니다.
 3. 모델 상태를 조작합니다.
-	* 유스케이스는 위 입력을 기반으로 모델의 상태를 변경합니다. 도메인 객체의 상태를 바꾸고 영속성 어댑터를 통해 구현된 포트(LoadNowPlayingPort)로 이 상태를 전달해서 저장될 수 있게 합니다.
-	* 유스케이스는 또 다른 아웃고잉 어댑터(Persistence Adapter)를 호출할 수 있습니다. 
+	* 유스케이스는 위 입력을 기반으로 모델의 상태를 변경합니다. 도메인 객체의 상태를 바꾸고 네트워크(API) 어댑터를 통해 구현된 포트(FindPlayingPort)로 이 상태를 전달해서 값을 반환 받을 수 있게 합니다.
+	* 유스케이스는 또 다른 아웃고잉 어댑터를 호출할 수 있습니다. 
 4. 출력을 반환합니다. 
 	* 아웃고잉 어댑터에서 온 출력값을 유스케이스를 호출한 어댑터(UI)로 반환할 출력 객체로 변환합니다.
 
-<br />
 
-Use Case는 protocol(interface의 역할)로 구성됩니다. 
+> Use Case는 protocol(interface의 역할)로 구성됩니다. 
 
 위에 유스케이스가 하는 일 중 비즈니스 규칙 검증에 대해서 말했었습니다. Use Case 내부에 검증로직을 정의하면 이를 사용하는 곳에서 개별적으로 검증할 필요가 없어집니다.
 이는 중복코드가 감소함을 의미합니다.
@@ -213,10 +212,9 @@ Use Case는 protocol(interface의 역할)로 구성됩니다.
 
 <br />
 <br />
+<br />
 
 # Implementation
- 
-<br />
 
 #### WALKING SKELETON
 
