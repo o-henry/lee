@@ -60,7 +60,7 @@ module.exports = {
                 color: `${theme('colors.primary.600')}`,
               },
               code: { color: theme('colors.primary.400') },
-              fontFamily:'iA Writer Mono S', 
+              fontFamily:'solway', 
               fontSize: '0.8rem',
               textDecoration: 'none'
             },

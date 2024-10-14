@@ -348,14 +348,6 @@ blockquote > p:after {
   content: none !important;
 }
 
-.high-light {
-  background-color: #fcd19c;
-  color: black;
-  border-radius: 4px;
-  padding: 0.3rem 0.2rem 0.3rem 0.3rem;
-  margin: 0 0.4rem 0 0.2rem;
-}
-
 .custom-blockquote {
   font-family: Poppins, "SeoulNamsanL";
   border-radius: 4px;
@@ -375,4 +367,13 @@ blockquote > p:after {
   background-repeat: no-repeat !important;
   background-size: 44px 10px !important;
   background-position: 16px 14px !important;
+}
+
+
+.high-light {
+  background-color: #fcf69c;
+  color: black;
+  border-radius: 4px;
+  padding: 0.3rem 0.2rem 0.3rem 0.3rem;
+  margin: 0 0.4rem 0 0.2rem;
 }
